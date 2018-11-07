@@ -1,0 +1,6 @@
+For the Network::random_connect method, as the teacher said two implementations were possible.
+I submitted the one that passed the tests but I added my first version as a comment at the end of the network.cpp.
+This version did not pass the tests as it would first determine the number of total links that each node should have in the end 
+with a Poisson distribution and thus would take into account the links already made before making new links.
+
+For the Network::resize method, it was not asked to also delete the links corresponding to the values beign deleted.
